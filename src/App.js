@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import bg from './images/homeBg.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-container">
+      <img src={bg} alt="background for the website" className="homeBg" />
+        <div className="top-header">
+          <h1 className="display-1">Generating Poetry from Images</h1>
+        </div>
+        <div className="list-of-images">
+          <p className="lead">The application that will generate poetry based on a selected image!</p>
+          <p className="lead">Please select from the list of images below for which you would like a poem to be created</p>
+
+        </div>
     </div>
   );
 }
