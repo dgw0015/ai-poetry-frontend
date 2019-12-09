@@ -70,3 +70,17 @@
   height: 15vw;
   padding: .8vw;
 }
+
+#poem-dropdown  {
+  width: 19.5vw;
+  height: auto;
+}
+
+.btn  {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
